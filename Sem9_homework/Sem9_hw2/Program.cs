@@ -7,7 +7,7 @@ using static System.Console;
 Clear();
 
 WriteLine("writes summ of all natural numbers betwee M and N. Using recursion");
-Write("Input natural numbers M and N, separated bu space: ");
+Write("Input natural numbers M and N, separated by space: ");
 string[] paramStr = ReadLine()!.Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
 if (paramStr.Length != 2)
