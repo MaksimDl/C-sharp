@@ -238,7 +238,7 @@ public class SingleArrayInt
     /// regularize single array
     /// increase or decrease
     ///</summary>
-    public static void RegulaRizeArray(int[] inArray, bool increase)
+    public static void RegularizeArray(int[] inArray, bool increase)
     {
         for (int i = 0; i < inArray.Length; i++)
         {
